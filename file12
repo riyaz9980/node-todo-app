@@ -1,0 +1,22 @@
+Got it 👍 You want to **delete credentials** from Jenkins.
+
+Here’s how you can do it:
+
+---
+
+### 🔧 Steps to Delete Credentials in Jenkins
+
+1. Go to **Manage Jenkins** from the left sidebar.
+2. Select **Credentials**.
+3. Choose the right **domain** (usually `Global` unless you created a custom one).
+4. You’ll see the list of stored credentials (like the ones in your dropdown: `riyaz/****`, `docker9980277/****`, etc.).
+5. Click on the **credential ID** you want to remove.
+6. On that page, click **Delete** (red button).
+
+---
+
+⚠️ Important:
+
+* If the credential is used in a pipeline or agent configuration, deleting it will break that job until you reconfigure with another valid credential.
+
+Do you want me to also give you the **CLI command** way to delete Jenkins credentials, in case you prefer terminal over UI?
